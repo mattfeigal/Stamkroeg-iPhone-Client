@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE47F5231455F43B00365F94 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE47F5221455F43B00365F94 /* UIKit.framework */; };
+		DE47F5251455F43B00365F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE47F5241455F43B00365F94 /* Foundation.framework */; };
+		DE47F5271455F43B00365F94 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE47F5261455F43B00365F94 /* CoreGraphics.framework */; };
+		DE47F52D1455F43B00365F94 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE47F52B1455F43B00365F94 /* InfoPlist.strings */; };
+		DE47F52F1455F43B00365F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE47F52E1455F43B00365F94 /* main.m */; };
+		DE47F5331455F43B00365F94 /* MRFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE47F5321455F43B00365F94 /* MRFAppDelegate.m */; };
+		DE47F5361455F43B00365F94 /* MRFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE47F5351455F43B00365F94 /* MRFViewController.m */; };
+		DE47F5391455F43B00365F94 /* MRFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE47F5371455F43B00365F94 /* MRFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE47F51E1455F43B00365F94 /* StamKroeg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StamKroeg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE47F5221455F43B00365F94 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE47F5241455F43B00365F94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE47F5261455F43B00365F94 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE47F52A1455F43B00365F94 /* StamKroeg-Info.plist */ = {isa = PBXFileReference; path = "StamKroeg-Info.plist"; sourceTree = "<group>"; };
+		DE47F52C1455F43B00365F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE47F52E1455F43B00365F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE47F5301455F43B00365F94 /* StamKroeg-Prefix.pch */ = {isa = PBXFileReference; path = "StamKroeg-Prefix.pch"; sourceTree = "<group>"; };
+		DE47F5311455F43B00365F94 /* MRFAppDelegate.h */ = {isa = PBXFileReference; path = MRFAppDelegate.h; sourceTree = "<group>"; };
+		DE47F5321455F43B00365F94 /* MRFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRFAppDelegate.m; sourceTree = "<group>"; };
+		DE47F5341455F43B00365F94 /* MRFViewController.h */ = {isa = PBXFileReference; path = MRFViewController.h; sourceTree = "<group>"; };
+		DE47F5351455F43B00365F94 /* MRFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MRFViewController.m; sourceTree = "<group>"; };
+		DE47F5381455F43B00365F94 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MRFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE47F51B1455F43B00365F94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE47F5231455F43B00365F94 /* UIKit.framework in Frameworks */,
+				DE47F5251455F43B00365F94 /* Foundation.framework in Frameworks */,
+				DE47F5271455F43B00365F94 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE47F5131455F43B00365F94 = {
+			isa = PBXGroup;
+			children = (
+				DE47F5281455F43B00365F94 /* StamKroeg */,
+				DE47F5211455F43B00365F94 /* Frameworks */,
+				DE47F51F1455F43B00365F94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE47F51F1455F43B00365F94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE47F51E1455F43B00365F94 /* StamKroeg.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE47F5211455F43B00365F94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE47F5221455F43B00365F94 /* UIKit.framework */,
+				DE47F5241455F43B00365F94 /* Foundation.framework */,
+				DE47F5261455F43B00365F94 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE47F5281455F43B00365F94 /* StamKroeg */ = {
+			isa = PBXGroup;
+			children = (
+				DE47F5311455F43B00365F94 /* MRFAppDelegate.h */,
+				DE47F5321455F43B00365F94 /* MRFAppDelegate.m */,
+				DE47F5341455F43B00365F94 /* MRFViewController.h */,
+				DE47F5351455F43B00365F94 /* MRFViewController.m */,
+				DE47F5371455F43B00365F94 /* MRFViewController.xib */,
+				DE47F5291455F43B00365F94 /* Supporting Files */,
+			);
+			path = StamKroeg;
+			sourceTree = "<group>";
+		};
+		DE47F5291455F43B00365F94 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE47F52A1455F43B00365F94 /* StamKroeg-Info.plist */,
+				DE47F52B1455F43B00365F94 /* InfoPlist.strings */,
+				DE47F52E1455F43B00365F94 /* main.m */,
+				DE47F5301455F43B00365F94 /* StamKroeg-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE47F51D1455F43B00365F94 /* StamKroeg */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE47F53C1455F43B00365F94 /* Build configuration list for PBXNativeTarget "StamKroeg" */;
+			buildPhases = (
+				DE47F51A1455F43B00365F94 /* Sources */,
+				DE47F51B1455F43B00365F94 /* Frameworks */,
+				DE47F51C1455F43B00365F94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StamKroeg;
+			productName = StamKroeg;
+			productReference = DE47F51E1455F43B00365F94 /* StamKroeg.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE47F5151455F43B00365F94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = DE47F5181455F43B00365F94 /* Build configuration list for PBXProject "StamKroeg" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE47F5131455F43B00365F94;
+			productRefGroup = DE47F51F1455F43B00365F94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE47F51D1455F43B00365F94 /* StamKroeg */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE47F51C1455F43B00365F94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE47F52D1455F43B00365F94 /* InfoPlist.strings in Resources */,
+				DE47F5391455F43B00365F94 /* MRFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE47F51A1455F43B00365F94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE47F52F1455F43B00365F94 /* main.m in Sources */,
+				DE47F5331455F43B00365F94 /* MRFAppDelegate.m in Sources */,
+				DE47F5361455F43B00365F94 /* MRFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE47F52B1455F43B00365F94 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE47F52C1455F43B00365F94 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE47F5371455F43B00365F94 /* MRFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE47F5381455F43B00365F94 /* en */,
+			);
+			name = MRFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE47F53A1455F43B00365F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE47F53B1455F43B00365F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE47F53D1455F43B00365F94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StamKroeg/StamKroeg-Prefix.pch";
+				INFOPLIST_FILE = "StamKroeg/StamKroeg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE47F53E1455F43B00365F94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "StamKroeg/StamKroeg-Prefix.pch";
+				INFOPLIST_FILE = "StamKroeg/StamKroeg-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE47F5181455F43B00365F94 /* Build configuration list for PBXProject "StamKroeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE47F53A1455F43B00365F94 /* Debug */,
+				DE47F53B1455F43B00365F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE47F53C1455F43B00365F94 /* Build configuration list for PBXNativeTarget "StamKroeg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE47F53D1455F43B00365F94 /* Debug */,
+				DE47F53E1455F43B00365F94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE47F5151455F43B00365F94 /* Project object */;
+}
