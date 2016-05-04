@@ -31,7 +31,7 @@
 -(IBAction)loadData:(id)sender;
 
 -(IBAction)setStamkroeg:(id)sender;
-- (IBAction)checkMyLocation:(id)sender;
+-(IBAction)checkMyLocation:(id)sender;
 
 
 

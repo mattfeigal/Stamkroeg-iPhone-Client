@@ -9,6 +9,12 @@
 #import "MRFViewController.h"
 #import "Person.h"
 
+
+// Change the STAMKROEG_SERVER_URL in your build settings for deployment
+#ifndef STAMKROEG_SERVER_URL
+#define STAMKROEG_SERVER_URL @"http://localhost:5000/checkins.json?lat=4.8917959&lng=52.3629809"
+#endif
+
 @implementation MRFViewController
 
 @synthesize responseData, people, stamKroeg;
@@ -17,7 +23,9 @@
 //NSString * const kMRFDataSource = @"http://dl.dropbox.com/u/45384685/json/stamkroeg.txt";
 //NSString * const kMRFDataSource = @"http://localhost/~glmt/json/stamkroeg.txt";
 //NSString * const kMRFDataSource = @"http://192.168.1.183/~glmt/json/sample.txt";
-NSString * const kMRFDataSource = @"http://10.0.1.6:9292/checkins.json?lat=4.8917959&lng=52.3629809";
+//NSString * const kMRFDataSource = @"http://10.0.1.6:9292/checkins.json?lat=4.8917959&lng=52.3629809";
+
+NSString * const kMRFDataSource = STAMKROEG_SERVER_URL;
 
 -(IBAction)loadData:(id)sender
 {
@@ -28,10 +36,6 @@ NSString * const kMRFDataSource = @"http://10.0.1.6:9292/checkins.json?lat=4.891
     NSURLRequest *postRequest = [[NSURLRequest alloc] initWithURL:[NSURL URLWithString:kMRFDataSource]];
     
     connection = [[NSURLConnection alloc] initWithRequest:postRequest delegate:self startImmediately:YES];
-    
-
-
-        
 }
 
 
@@ -49,8 +53,6 @@ NSString * const kMRFDataSource = @"http://10.0.1.6:9292/checkins.json?lat=4.891
     NSLog(@"Checking location!");
     //[self findLocation];
     [locationManager startUpdatingLocation];
-
-    
 }
 
 
